@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Para ti</title>
+	<link href="https://fonts.googleapis.com/css?family=Sacramento|Pacifico|Pompiere" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="jquery.easings.min.js"></script>
+	<script type="text/javascript" src="scrolloverflow.min.js"></script>
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+    	$('#fullpage').fullpage({
+    		sectionsColor: ['#e6ddd4'],
+    		cc3: true,
+    		scrollingSpeed: (1000),
+    		loopHorizontal: false
+    	});
+		});
+	</script>	
+ 
+	<style type="text/css">
+		.section {
+			font-size: 4em;
+			font-family: /*'Sacramento', cursive;*/ 'Pompiere', cursive;
+			text-align: center;
+		}
+		.section img {
+			/*background-image: url('assets/msj1.png');*/
+			width: 4em;
+			height: auto;
+			
+		}
+		.slide, .emoji {
+			/*background-image: url('assets/msj1.png');*/
+			width: 2em;
+			height: auto;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div id="fullpage">
+	<div class="section">
+    <div class="slide emoji"><img src="good.png"></div>
+    <div class="slide"><img style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19); width: 17.5em; height: auto;" src="assets/msj2.jpg"> </div>
+    </div>
+</div>
+
+</body>
+</html>
